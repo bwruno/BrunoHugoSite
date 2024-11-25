@@ -107,9 +107,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # brandLogo: "/perfil.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Bruno G.A." # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -129,7 +129,7 @@ params:
     enable: true
     intro: "Hola, mi nombre es"
     title: "Bruno"
-    subtitle: "I build things for the web"
+    subtitle: "Me follo a tu madre y me la vuelvo a follar"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/perfil.png
     bottomImage:
@@ -152,9 +152,10 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "Sobre mi"
     image: "/images/perfil.png"
     content: |-
+      **Pasatiempos:** Dibujo, amigos, atletismo, ciclismo, música, y videojuegos.
       **Bruno** es un apasionado desarrollador web con ganas de meterse en la industria tecnológica y aprender.
       Especializado en crear soluciones dinámicas y amigables para el usuario, Bruno combina creatividad y conocimientos técnicos para diseñar sitios web excepcionales.
     skills:
@@ -241,9 +242,9 @@ params:
     items:
       - title: "Master of Business Administration"
         school:
-          name: "University of California, Berkeley"
+          name: "CPIFP los Enlaces"
           url: "https://example.org"
-        date: "2013 - 2015"
+        date: "2023 - 2025"
         GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
@@ -280,7 +281,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Si quieres colaborar con Bruno o saber más sobre su trabajo, puedes contactarlo a través de su correo electronico o sus redes sociales
     btnName: Mail me
     btnLink: mailto:gurusabarisha@gmail.com
     # formspree:

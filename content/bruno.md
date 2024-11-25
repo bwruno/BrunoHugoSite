@@ -29,7 +29,7 @@ tags: ["Desarrollador", "Web", "Tecnología", "Programador"]
 
 ## Contacto
 
-Si quieres colaborar con Bruno o saber más sobre su trabajo, puedes contactarlo a través de sus redes sociales:
+Si quieres colaborar con Bruno o saber más sobre su trabajo, puedes contactarlo a través de su correo electronico o sus redes sociales:
 
 - **Correo:** bwruno@gmail.com  
 - **GitHub:** [github.com/bwruno](https://github.com/bwruno)
