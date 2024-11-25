@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programador on Bruno Guallar Aliaga</title>
+    <link>http://localhost:1313/tags/programador/</link>
+    <description>Recent content in Programador on Bruno Guallar Aliaga</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programador/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bruno Guallar Aliaga</title>
+      <link>http://localhost:1313/bruno/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bruno/</guid>
+      <description>&lt;h1 id=&#34;bruno-guallar-aliaga&#34;&gt;Bruno Guallar Aliaga&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/bruno.jpg&#34; alt=&#34;Foto de Bruno&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bruno&lt;/strong&gt; es un apasionado desarrollador web con ganas de meterse en la industria tecnológica y aprender. Especializado en crear soluciones dinámicas y amigables para el usuario, Bruno combina creatividad y conocimientos técnicos para diseñar sitios web excepcionales.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;acerca-de-bruno&#34;&gt;Acerca de Bruno&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Profesión:&lt;/strong&gt; Desarrollador Web&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Experiencia:&lt;/strong&gt; Junior&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Especialidades:&lt;/strong&gt; HTML, CSS, JavaScript, Java y PHP.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pasatiempos:&lt;/strong&gt; Dibujo, amigos, atletismo, ciclismo, música, y videojuegos.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;proyectos-destacados&#34;&gt;Proyectos Destacados&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#&#34;&gt;Portfolio Creativo&lt;/a&gt;&lt;/strong&gt;: Un sitio personal que muestra su trabajo como diseñador web.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
