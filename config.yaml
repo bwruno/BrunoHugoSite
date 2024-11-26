@@ -81,10 +81,13 @@ params:
     intro: "Hola, mi nombre es"
     title: "Bruno"
     subtitle: "Programador Web"
-    content: Programador versátil en entornos cliente-servidor, con gran capacidad de adaptación entre frontend y backend.
-      Bruno es un apasionado desarrollador web con ganas de meterse en la industria tecnológica y aprender.
-      Especializado en crear soluciones dinámicas y amigables para el usuario, Bruno combina creatividad y conocimientos técnicos para diseñar sitios web excepcionales.
+    content: |- 
+      Desarrollador y diseñador de aplicaciones web, ansioso por seguir creciendo en el sector IT y campos relacionados.
+      Soy un programador web versátil en entornos cliente-servidor, con gran capacidad de adaptación entre frontend y backend.
       
+      Estoy specializado en crear soluciones dinámicas y amigables para el usuario, Bruno combina creatividad y conocimientos técnicos para diseñar sitios web excepcionales.
+      Asi que tengo ganas de meterme en la industria tecnológica y aprender.
+
     image: /images/perfil.png
     bottomImage:
       enable: true
@@ -110,19 +113,16 @@ params:
     image: "/images/perfil.png"
     content: |-  
       Uno de mis puntos clave es mi creatividad, por lo que estoy más interesado en el diseño de programación y la parte frontend, razón por la cual me enfoco en la experiencia del usuario.
-      Disfruto creando interfaces limpias y atractivas que respondan a las necesidades del cliente.
-      Mi estilo tiende a ser funcional, moderno y minimalista, orientado a una navegación intuitiva.
-      En mi tiempo libre, hago dibujos digitales y a mano.
+      Disfruto creando interfaces limpias y atractivas que respondan a las necesidades del cliente (funcional, moderno, minimalista y navegación intuitiva).
       
-      Prefiero usar JavaScript por su versatilidad; es el lenguaje que más he utilizado junto con Java.
       Me encanta programar algoritmos matemáticos y escribir código relacionado con la ciencia en Java.
       Estoy en constante aprendizaje para actualizar mis habilidades de programación con nuevas herramientas, como TypeScript para JavaScript.
-      Las nuevas tecnologías siempre me entusiasman debido a mi mentalidad curiosa.
+
       Una mentalidad que siempre aplico incluye perseverancia, atención al detalle y perfeccionismo en lo que hago.
-      Dependiendo de la situación, prefiero realizar un proyecto por mi cuenta, pero usualmente considero que el trabajo en equipo es mejor y más eficiente tanto para mí como para mis compañeros.
-      Esto se debe a que soy sociable y tengo un sentido del humor que normalmente agrada a los demás.
+      Usualmente considero que el trabajo en equipo es mejor y más eficiente tanto para mí como para mis compañeros.
+      Esto se debe a que soy sociable.
+
       **Pasatiempos:** Dibujo, amigos, atletismo, ciclismo, música, y videojuegos.
-      **Desarrollador y diseñador de aplicaciones web, ansioso por seguir creciendo en el sector IT y campos relacionados.**  
     skills:
       enable: true
       title: "Estas son algunas de las tecnologias que utilizo en mi trabajo diario:"
