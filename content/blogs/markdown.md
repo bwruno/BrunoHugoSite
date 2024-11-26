@@ -123,7 +123,7 @@ los siguientes elementos HTML `<h1>`—`<h6>` representan 6 niveles de secciones
 
 ## Otros Elemntos — abbr, sub, sup, kbd, mark
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> es una imagen de mapa de bits.
 
 H<sub>2</sub>O
 
