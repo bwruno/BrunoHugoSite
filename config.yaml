@@ -147,7 +147,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/bwruno
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -162,6 +162,7 @@ params:
       Disfruto creando interfaces limpias y atractivas que respondan a las necesidades del cliente.
       Mi estilo tiende a ser funcional, moderno y minimalista, orientado a una navegación intuitiva.
       En mi tiempo libre, hago dibujos digitales y a mano.
+      
       Prefiero usar JavaScript por su versatilidad; es el lenguaje que más he utilizado junto con Java.
       Me encanta programar algoritmos matemáticos y escribir código relacionado con la ciencia en Java.
       Estoy en constante aprendizaje para actualizar mis habilidades de programación con nuevas herramientas, como TypeScript para JavaScript.
@@ -280,7 +281,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/bwruno
       linkedin: https://linkedin.com
       instagram: https://www.instagram.com/b.wruno/
 
@@ -308,9 +309,9 @@ params:
     emailText: "Check out this site"
 
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+    article: "Nov 26, 2024"
+    articleList: "Nov 26, 2024"
+    articleRecent: "Nov 26, 2024"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
