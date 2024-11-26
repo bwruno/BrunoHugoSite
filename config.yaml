@@ -239,37 +239,24 @@ params:
           name: "CPIFP los Enlaces"
           url: "https://cpilosenlaces.com/"
         date: "2023 - 2025"
-        GPA: "3.8 out of 5.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          2 años de Ciclo Superior y prácticas de Erasmus.
+      - title: "Ingeniero en Telecomunicaciones"
         school:
-          name: "Escuela de Ingeniería y Arquitectura Unizar
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Escuela de Ingeniería y Arquitectura Unizar"
+          url: "https://eina.unizar.es/"
+        date: "2021 - 2023"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          2 años de Estudios en Universidad de Zaragoza.
+      - title: "Estudios en Bachillerato"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "IES José Manuel Blecua"
+          url: "https://iesblecua.com/"
+        date: "2019 - 2021"
+        content: |-
+          Gran Instituto, pionero en innovacion en Aragón y España.
+            - Cursé los 4 años de instituto (segunda enseñanza obligatoria ESO).
+            - Cursé los 2 años de bachillerato en la rama de Ciencias tecnológicas.
 
   #Contact
   contact:
