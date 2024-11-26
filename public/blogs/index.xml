@@ -6,15 +6,8 @@
     <description>Recent content in Blogs on Bruno Guallar Aliaga</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 03 Apr 2021 23:29:21 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Render Math With Mathjax</title>
-      <link>http://localhost:1313/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/math/</guid>
-      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Markdown Syntax</title>
       <link>http://localhost:1313/blogs/markdown-syntax/</link>
@@ -28,6 +21,13 @@
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;emoji-support&#34;&gt;Emoji Support&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;emojify&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;&#xA;&lt;hr&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blogs/cliente/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/cliente/</guid>
+      <description>&lt;h1 id=&#34;desarrollo-web-en-entorno-cliente&#34;&gt;Desarrollo web en entorno cliente&lt;/h1&gt;&#xA;&lt;p&gt;El módulo &lt;strong&gt;&amp;ldquo;Desarrollo web en entorno cliente&amp;rdquo;&lt;/strong&gt; (DWC) forma parte del currículo del &lt;strong&gt;Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)&lt;/strong&gt; impartido en centros como el &lt;strong&gt;CPIFP Los Enlaces&lt;/strong&gt; en Zaragoza. Este módulo tiene como objetivo principal formar a los estudiantes en las tecnologías y herramientas necesarias para desarrollar aplicaciones web dinámicas del lado del cliente.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contenidos-principales-del-módulo&#34;&gt;Contenidos principales del módulo:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fundamentos de la programación en entorno cliente:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -29,23 +29,17 @@
     <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/markdown-syntax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/mathjax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/math/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/example/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/markdown-syntax/</loc>
+    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/markdown-syntax/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
@@ -58,6 +52,8 @@
   </url><url>
     <loc>http://localhost:1313/blogs/emoji-support/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/cliente/</loc>
   </url><url>
     <loc>http://localhost:1313/canalestv/</loc>
   </url><url>
