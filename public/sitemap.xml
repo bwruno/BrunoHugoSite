@@ -56,9 +56,5 @@
     <loc>http://localhost:1313/blogs/cliente/</loc>
   </url><url>
     <loc>http://localhost:1313/canalestv/</loc>
-  </url><url>
-    <loc>http://localhost:1313/markdown/</loc>
-  </url><url>
-    <loc>http://localhost:1313/modulo/</loc>
   </url>
 </urlset>

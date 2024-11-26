@@ -50,19 +50,5 @@
       <guid>http://localhost:1313/canalestv/</guid>
       <description></description>
     </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/markdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/modulo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/modulo/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
