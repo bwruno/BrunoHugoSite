@@ -129,8 +129,11 @@ params:
     enable: true
     intro: "Hola, mi nombre es"
     title: "Bruno"
-    subtitle: "Me follo a tu madre y me la vuelvo a follar"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    subtitle: "Programador Web"
+    content: Programador versátil en entornos cliente-servidor, con gran capacidad de adaptación entre frontend y backend.
+      Bruno es un apasionado desarrollador web con ganas de meterse en la industria tecnológica y aprender.
+      Especializado en crear soluciones dinámicas y amigables para el usuario, Bruno combina creatividad y conocimientos técnicos para diseñar sitios web excepcionales.
+      
     image: /images/perfil.png
     bottomImage:
       enable: true
@@ -154,13 +157,23 @@ params:
     enable: true
     title: "Sobre mi"
     image: "/images/perfil.png"
-    content: |-
+    content: |-  
+      Uno de mis puntos clave es mi creatividad, por lo que estoy más interesado en el diseño de programación y la parte frontend, razón por la cual me enfoco en la experiencia del usuario.
+      Disfruto creando interfaces limpias y atractivas que respondan a las necesidades del cliente.
+      Mi estilo tiende a ser funcional, moderno y minimalista, orientado a una navegación intuitiva.
+      En mi tiempo libre, hago dibujos digitales y a mano.
+      Prefiero usar JavaScript por su versatilidad; es el lenguaje que más he utilizado junto con Java.
+      Me encanta programar algoritmos matemáticos y escribir código relacionado con la ciencia en Java.
+      Estoy en constante aprendizaje para actualizar mis habilidades de programación con nuevas herramientas, como TypeScript para JavaScript.
+      Las nuevas tecnologías siempre me entusiasman debido a mi mentalidad curiosa.
+      Una mentalidad que siempre aplico incluye perseverancia, atención al detalle y perfeccionismo en lo que hago.
+      Dependiendo de la situación, prefiero realizar un proyecto por mi cuenta, pero usualmente considero que el trabajo en equipo es mejor y más eficiente tanto para mí como para mis compañeros.
+      Esto se debe a que soy sociable y tengo un sentido del humor que normalmente agrada a los demás.
       **Pasatiempos:** Dibujo, amigos, atletismo, ciclismo, música, y videojuegos.
-      **Bruno** es un apasionado desarrollador web con ganas de meterse en la industria tecnológica y aprender.
-      Especializado en crear soluciones dinámicas y amigables para el usuario, Bruno combina creatividad y conocimientos técnicos para diseñar sitios web excepcionales.
+      **Desarrollador y diseñador de aplicaciones web, ansioso por seguir creciendo en el sector IT y campos relacionados.**  
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Estas son algunas de las tecnologias que utilizo en mi trabajo diario:"
       items:
         - "HTML"
         - "CSS"
@@ -172,7 +185,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: Experiencia
     items:
       - job: "Senior Software Developer"
         company: "Facebook"
@@ -215,35 +228,16 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: Educación
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Título en Desarrollo de Aplicacionese Web"
         school:
           name: "CPIFP los Enlaces"
-          url: "https://example.org"
+          url: "https://cpilosenlaces.com/"
         date: "2023 - 2025"
         GPA: "3.8 out of 5.0"
         content: |-
@@ -280,9 +274,9 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: ¡Contáctame!
     content: Si quieres colaborar con Bruno o saber más sobre su trabajo, puedes contactarlo a través de su correo electronico o sus redes sociales
-    btnName: Mail me
+    btnName: Enviar un Email
     btnLink: mailto:gurusabarisha@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -301,9 +295,7 @@ params:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      instagram: https://www.instagram.com/b.wruno/
 
   # List pages like blogs and posts
   listPages:

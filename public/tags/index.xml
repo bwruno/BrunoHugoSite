@@ -71,19 +71,5 @@
       <guid>http://localhost:1313/tags/emoji-support/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/tags/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/placeholder-text/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/tags/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/rich-content/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
