@@ -24,15 +24,15 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+    - identifier: contenidos
+      name: Contenidos
+      title: Contenidos de la practica
+      url: /contenidos
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
+    - identifier: galeria
+      name: Fotos
+      title: galeria
+      url: /galeria
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
@@ -275,7 +275,7 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "contenidos"
       count: 3
       title: Recent Posts
       enable: true

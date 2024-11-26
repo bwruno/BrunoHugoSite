@@ -28,20 +28,20 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/blogs/math/">
+<meta property="og:url" content="http://localhost:1313/contenidos/canalestv/">
   <meta property="og:site_name" content="Bruno Guallar Aliaga">
   <meta property="og:title" content="Bruno Guallar Aliaga">
-  <meta property="og:description" content="Desarrollo web en entorno cliente El módulo “Desarrollo web en entorno cliente” (DWC) forma parte del currículo del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) impartido en centros como el CPIFP Los Enlaces en Zaragoza. Este módulo tiene como objetivo principal formar a los estudiantes en las tecnologías y herramientas necesarias para desarrollar aplicaciones web dinámicas del lado del cliente.
-Contenidos principales del módulo: Fundamentos de la programación en entorno cliente:">
+  <meta property="og:description" content="Canales de TV Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.
+Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAlejandroR/json_tv/refs/heads/main/tv.json&#34;; $json = file_get_contents($url); $data = json_decode($json, true); $options = &#34;&#34;; $canal = $_POST[&#39;canal&#39;] ?? &#34;&#34;; foreach ($data as $value) { $name = $value[&#39;name&#39;]; $selected = $name == $canal ? &#34;selected&#34; : &#34;&#34;; $options .= &#34;&lt;option $selected value=&#39;$name&#39;&gt;$name&lt;/option&gt;&#34;; } $listado = &#34;&#34;; if ($canal != &#34;&#34;) // Si tengo canal, recojo todos los canales foreach ($data as $canales) { if ($canales[&#39;name&#39;] == $canal) { foreach ($canales[&#39;channels&#39;] as $canal) { $listado .= &#34;&lt;a href=&#39;{$canal[&#39;web&#39;]}&#39;&gt;&lt;img src=&#39;{$canal[&#39;logo&#39;]}&#39; /&gt;&lt;/a&gt;&#34;; } } } ?&gt; &lt;!doctype html&gt; &lt;html lang=&#34;en&#34;&gt; &lt;head&gt; &lt;meta charset=&#34;UTF-8&#34;&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&#34;&gt; &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;form action=&#34;&lt;?= $_SERVER[&#39;PHP_SELF&#39;] ?&gt;&#34; method=&#34;post&#34;&gt; &lt;select name=&#34;canal&#34; id=&#34;&#34;&gt; &lt;?= $options ?&gt; &lt;/select&gt; &lt;input type=&#34;submit&#34; value=&#34;Ver canales&#34; name=&#34;submit&#34;&gt; &lt;hr /&gt; &lt;?= $listado ?&gt; &lt;/form&gt; &lt;/body&gt; &lt;/html&gt;">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="blogs">
+    <meta property="article:section" content="contenidos">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Bruno Guallar Aliaga">
-  <meta name="twitter:description" content="Desarrollo web en entorno cliente El módulo “Desarrollo web en entorno cliente” (DWC) forma parte del currículo del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) impartido en centros como el CPIFP Los Enlaces en Zaragoza. Este módulo tiene como objetivo principal formar a los estudiantes en las tecnologías y herramientas necesarias para desarrollar aplicaciones web dinámicas del lado del cliente.
-Contenidos principales del módulo: Fundamentos de la programación en entorno cliente:">
+  <meta name="twitter:description" content="Canales de TV Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.
+Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAlejandroR/json_tv/refs/heads/main/tv.json&#34;; $json = file_get_contents($url); $data = json_decode($json, true); $options = &#34;&#34;; $canal = $_POST[&#39;canal&#39;] ?? &#34;&#34;; foreach ($data as $value) { $name = $value[&#39;name&#39;]; $selected = $name == $canal ? &#34;selected&#34; : &#34;&#34;; $options .= &#34;&lt;option $selected value=&#39;$name&#39;&gt;$name&lt;/option&gt;&#34;; } $listado = &#34;&#34;; if ($canal != &#34;&#34;) // Si tengo canal, recojo todos los canales foreach ($data as $canales) { if ($canales[&#39;name&#39;] == $canal) { foreach ($canales[&#39;channels&#39;] as $canal) { $listado .= &#34;&lt;a href=&#39;{$canal[&#39;web&#39;]}&#39;&gt;&lt;img src=&#39;{$canal[&#39;logo&#39;]}&#39; /&gt;&lt;/a&gt;&#34;; } } } ?&gt; &lt;!doctype html&gt; &lt;html lang=&#34;en&#34;&gt; &lt;head&gt; &lt;meta charset=&#34;UTF-8&#34;&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&#34;&gt; &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;form action=&#34;&lt;?= $_SERVER[&#39;PHP_SELF&#39;] ?&gt;&#34; method=&#34;post&#34;&gt; &lt;select name=&#34;canal&#34; id=&#34;&#34;&gt; &lt;?= $options ?&gt; &lt;/select&gt; &lt;input type=&#34;submit&#34; value=&#34;Ver canales&#34; name=&#34;submit&#34;&gt; &lt;hr /&gt; &lt;?= $listado ?&gt; &lt;/form&gt; &lt;/body&gt; &lt;/html&gt;">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -255,9 +255,9 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/blogs" title="Blog posts">
+                        <a class="nav-link" href="/contenidos" title="Contenidos de la practica">
                             
-                            Blog
+                            Contenidos
                         </a>
                     </li>
                     
@@ -265,9 +265,9 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/gallery" title="Blog posts">
+                        <a class="nav-link" href="/galeria" title="galeria">
                             
-                            Gallery
+                            Fotos
                         </a>
                     </li>
                     
@@ -313,7 +313,7 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
             <h1 class="text-center mb-4"></h1>
             <div class="text-center">
               
-              Jan 1, 0001
+              Nov 16, 1010
 
               
               <span id="readingTime">
@@ -324,71 +324,57 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
           </div>
           
           <article class="page-content  p-2">
-          <h1 id="desarrollo-web-en-entorno-cliente">Desarrollo web en entorno cliente</h1>
-<p>El módulo <strong>&ldquo;Desarrollo web en entorno cliente&rdquo;</strong> (DWC) forma parte del currículo del <strong>Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong> impartido en centros como el <strong>CPIFP Los Enlaces</strong> en Zaragoza. Este módulo tiene como objetivo principal formar a los estudiantes en las tecnologías y herramientas necesarias para desarrollar aplicaciones web dinámicas del lado del cliente.</p>
-<h2 id="contenidos-principales-del-módulo">Contenidos principales del módulo:</h2>
-<ol>
-<li>
-<p><strong>Fundamentos de la programación en entorno cliente:</strong></p>
-<ul>
-<li>Lenguajes y paradigmas de programación.</li>
-<li>Estructuras básicas como variables, operadores, bucles y funciones.</li>
-<li>Introducción al modelo de objetos y eventos.</li>
-</ul>
-</li>
-<li>
-<p><strong>HTML y CSS avanzados:</strong></p>
-<ul>
-<li>Estructuración semántica de contenido con HTML5.</li>
-<li>Diseño web responsivo utilizando CSS3.</li>
-<li>Uso de frameworks CSS como Bootstrap para maquetación ágil.</li>
-</ul>
-</li>
-<li>
-<p><strong>JavaScript y DOM:</strong></p>
-<ul>
-<li>Manipulación del DOM (Document Object Model) para interactuar con el contenido y la estructura de la página.</li>
-<li>Gestión de eventos: escuchar y reaccionar a interacciones del usuario.</li>
-<li>Control de formularios y validaciones del lado cliente.</li>
-</ul>
-</li>
-<li>
-<p><strong>Programación avanzada con JavaScript:</strong></p>
-<ul>
-<li>Conceptos como promesas, funciones asíncronas y programación orientada a objetos.</li>
-<li>Uso de APIs del navegador: almacenamiento local, cookies, geolocalización, etc.</li>
-<li>Manejo de datos y peticiones HTTP mediante <strong>Fetch API</strong> o AJAX.</li>
-</ul>
-</li>
-<li>
-<p><strong>Frameworks y bibliotecas:</strong></p>
-<ul>
-<li>Introducción a librerías populares como <strong>jQuery</strong>.</li>
-<li>Conceptos básicos de frameworks modernos (por ejemplo, React o Vue.js, si se incluye en el programa).</li>
-</ul>
-</li>
-<li>
-<p><strong>Optimización y buenas prácticas:</strong></p>
-<ul>
-<li>Mejora del rendimiento de las aplicaciones cliente.</li>
-<li>Depuración de código y uso de herramientas del desarrollador en navegadores.</li>
-<li>Accesibilidad y compatibilidad en diferentes navegadores.</li>
-</ul>
-</li>
-</ol>
-<h2 id="competencias-clave-adquiridas">Competencias clave adquiridas:</h2>
-<ul>
-<li>Crear aplicaciones interactivas y dinámicas en el cliente.</li>
-<li>Aplicar técnicas de diseño responsivo para garantizar una experiencia óptima en distintos dispositivos.</li>
-<li>Implementar soluciones seguras y accesibles.</li>
-<li>Conocer las herramientas modernas para optimizar el desarrollo web.</li>
-</ul>
-<h2 id="enfoque-práctico">Enfoque práctico:</h2>
-<p>En el <strong>CPIFP Los Enlaces</strong>, este módulo suele impartirse de forma práctica, con ejercicios y proyectos en los que el alumnado desarrolla páginas y aplicaciones reales que integran todos los conocimientos adquiridos. Además, se fomenta el trabajo colaborativo utilizando herramientas como <strong>Git</strong> y <strong>GitHub</strong>.</p>
-<h2 id="relación-con-otros-módulos">Relación con otros módulos:</h2>
-<p>&ldquo;DWC&rdquo; complementa el módulo de <strong>&ldquo;Desarrollo web en entorno servidor&rdquo; (DWS)</strong>, ya que juntos forman la base para la creación de aplicaciones web completas. Mientras &ldquo;DWC&rdquo; se centra en el cliente, &ldquo;DWS&rdquo; se ocupa del servidor.</p>
-<hr>
-
+          <h1 id="canales-de-tv">Canales de TV</h1>
+<p>Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.</p>
+<h2 id="código-php-y-html">Código PHP y HTML</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://raw.githubusercontent.com/MAlejandroR/json_tv/refs/heads/main/tv.json&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$json <span style="color:#f92672">=</span> <span style="color:#a6e22e">file_get_contents</span>($url);
+</span></span><span style="display:flex;"><span>$data <span style="color:#f92672">=</span> <span style="color:#a6e22e">json_decode</span>($json, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>$options <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>$canal <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#39;canal&#39;</span>] <span style="color:#f92672">??</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">foreach</span> ($data <span style="color:#66d9ef">as</span> $value) {
+</span></span><span style="display:flex;"><span>    $name <span style="color:#f92672">=</span> $value[<span style="color:#e6db74">&#39;name&#39;</span>];
+</span></span><span style="display:flex;"><span>    $selected <span style="color:#f92672">=</span> $name <span style="color:#f92672">==</span> $canal <span style="color:#f92672">?</span> <span style="color:#e6db74">&#34;selected&#34;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>    $options <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34;&lt;option </span><span style="color:#e6db74">$selected</span><span style="color:#e6db74"> value=&#39;</span><span style="color:#e6db74">$name</span><span style="color:#e6db74">&#39;&gt;</span><span style="color:#e6db74">$name</span><span style="color:#e6db74">&lt;/option&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>$listado <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($canal <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#75715e">// Si tengo canal, recojo todos los canales
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">foreach</span> ($data <span style="color:#66d9ef">as</span> $canales) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> ($canales[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">==</span> $canal) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">foreach</span> ($canales[<span style="color:#e6db74">&#39;channels&#39;</span>] <span style="color:#66d9ef">as</span> $canal) {
+</span></span><span style="display:flex;"><span>                $listado <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34;&lt;a href=&#39;</span><span style="color:#e6db74">{</span>$canal[<span style="color:#e6db74">&#39;web&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39;&gt;&lt;img src=&#39;</span><span style="color:#e6db74">{</span>$canal[<span style="color:#e6db74">&#39;logo&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39; /&gt;&lt;/a&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;!doctype html&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;html lang=&#34;en&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;head&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;meta charset=&#34;UTF-8&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;meta name=&#34;viewport&#34; 
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">          content=&#34;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;title&gt;Document&lt;/title&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/head&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;form action=&#34;&lt;?= $_SERVER[&#39;PHP_SELF&#39;] ?&gt;&#34; method=&#34;post&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;select name=&#34;canal&#34; id=&#34;&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">        &lt;?= $options ?&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;/select&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;input type=&#34;submit&#34; value=&#34;Ver canales&#34; name=&#34;submit&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;hr /&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;?= $listado ?&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/form&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/html&gt;
+</span></span></span></code></pre></div>
           </article>
         </div>
       </div>
@@ -402,10 +388,7 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#contenidos-principales-del-módulo">Contenidos principales del módulo:</a></li>
-    <li><a href="#competencias-clave-adquiridas">Competencias clave adquiridas:</a></li>
-    <li><a href="#enfoque-práctico">Enfoque práctico:</a></li>
-    <li><a href="#relación-con-otros-módulos">Relación con otros módulos:</a></li>
+    <li><a href="#código-php-y-html">Código PHP y HTML</a></li>
   </ul>
 </nav>
               </div>
@@ -420,22 +403,22 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fmath%2f">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text=&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fmath%2f">
+                  <a target="_blank" href="https://twitter.com/share?text=&url=http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=: http%3a%2f%2flocalhost%3a1313%2fblogs%2fmath%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=: http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2fmath%2f'>
+                  <a target="_blank" href='mailto:?subject=&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -514,23 +497,33 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/blogs/markdown-syntax/">
+                    <a href="/contenidos/markdown/">
                         <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/markdown-syntax/" class="primary-font card-title">
+                    <a href="/contenidos/markdown/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><h2 id="paragraph">Paragraph</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p></p>
+                        <p><h3 id="cita-en-bloque-sin-atribución">Cita en bloque sin atribución</h3>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h2 id="tablas">Tablas</h2>
+<p>Las tablas no forman parte del estándar principal de Markdown, pero Hugo las soporta de forma nativa.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Nombre</th>
+          <th>Edad …</th></tr></thead></table></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Apr 3, 2021</span>
-                    <a href="/blogs/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">Nov 36, 30329</span>
+                    <a href="/contenidos/markdown/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -538,26 +531,22 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
                 
-                <div class="card-header">
-                    <a href="/blogs/emoji-support/">
-                        <img src="/images/post.jpg" class="card-img-top" alt="Emoji Support">
-                    </a>
-                </div>
-                
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/emoji-support/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Emoji Support">Emoji Support</h5>
+                    <a href="/contenidos/canalestv/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title=""></h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><p>Emoji can be enabled in a Hugo project in a number of ways. :zap:</p>
-<h2 id="emoji-support">Emoji Support</h2>
-<p>The <a href="https://gohugo.io/functions/emojify/">emojify</a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in …</p></p>
+                        <p><h1 id="canales-de-tv">Canales de TV</h1>
+<p>Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.</p>
+<h2 id="código-php-y-html">Código PHP y HTML</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$url <span style="color:#f92672">= …</span></span></span></span></span></span></span></code></pre></div></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Apr 3, 2021</span>
-                    <a href="/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">Nov 16, 1010</span>
+                    <a href="/contenidos/canalestv/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -566,7 +555,7 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/math/" class="primary-font card-title">
+                    <a href="/contenidos/cliente/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title=""></h5>
                     </a>
                     <div class="card-text secondary-font">
@@ -575,8 +564,8 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Jan 1, 0001</span>
-                    <a href="/blogs/math/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">Nov 16, 1010</span>
+                    <a href="/contenidos/cliente/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -587,7 +576,7 @@ Contenidos principales del módulo: Fundamentos de la programación en entorno c
 <div class="text-center pt-2">
     
     <span class="px-1">
-        <a href="https://github.com" aria-label="github">
+        <a href="https://github.com/bwruno" aria-label="github">
             <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
                 <path id="footer-socialNetworks-github-svg-path"
                     d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />

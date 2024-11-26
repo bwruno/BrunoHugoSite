@@ -28,19 +28,17 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/gallery/">
+<meta property="og:url" content="http://localhost:1313/contenidos/">
   <meta property="og:site_name" content="Bruno Guallar Aliaga">
-  <meta property="og:title" content="Galeria de Fotos">
-  <meta property="og:description" content="Mi galería de fotos random:">
+  <meta property="og:title" content="Contenidos">
+  <meta property="og:description" content="Text about my cool site">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2022-06-25T18:35:46+05:30">
-    <meta property="article:modified_time" content="2022-06-25T18:35:46+05:30">
+  <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Galeria de Fotos">
-  <meta name="twitter:description" content="Mi galería de fotos random:">
+  <meta name="twitter:title" content="Contenidos">
+  <meta name="twitter:description" content="Text about my cool site">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -104,21 +102,15 @@
 
 
 
-<meta name="description" content="Galeria de Fotos of Bruno Guallar Aliaga">
-
-
-<link rel="stylesheet" href="/css/gallery.css">
-<link rel="stylesheet" href="/viewer/viewer.min.css">
-<script src="/viewer/viewer.min.js"></script>
-
-
+<meta name="description" content="Contenidos of Bruno Guallar Aliaga">
+<link rel="stylesheet" href="/css/list.css" media="all">
 
 
   
   
 
   <title>
-Galeria de Fotos | Bruno Guallar Aliaga
+Contenidos | Bruno Guallar Aliaga
 
   </title>
 </head>
@@ -257,9 +249,9 @@ Galeria de Fotos | Bruno Guallar Aliaga
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/blogs" title="Blog posts">
+                        <a class="nav-link" href="/contenidos" title="Contenidos de la practica">
                             
-                            Blog
+                            Contenidos
                         </a>
                     </li>
                     
@@ -267,9 +259,9 @@ Galeria de Fotos | Bruno Guallar Aliaga
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/gallery" title="Blog posts">
+                        <a class="nav-link" href="/galeria" title="galeria">
                             
-                            Gallery
+                            Fotos
                         </a>
                     </li>
                     
@@ -307,58 +299,99 @@ Galeria de Fotos | Bruno Guallar Aliaga
 </header>
 <div id="content">
 <div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">Galeria de Fotos</h2>
-    <h6 class="text-center">Mi galería de fotos random:</h6>
-    <div class="row p-4">
+    <h2 class="text-center pb-2">Contenidos</h2>
+    <div class="row">
         
-    </div>
-    <div class="card-group p-4">
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-header">
+                        <a href="/contenidos/markdown/">
+                            <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
+                        </a>
+                    </div>
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/contenidos/markdown/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><h3 id="cita-en-bloque-sin-atribución">Cita en bloque sin atribución</h3>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h2 id="tablas">Tablas</h2>
+<p>Las tablas no forman parte del estándar principal de Markdown, pero Hugo las soporta de forma nativa.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Nombre</th>
+          <th>Edad …</th></tr></thead></table></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 36, 30329</span>
+                        <a href="/contenidos/markdown/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/contenidos/canalestv/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title=""></h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><h1 id="canales-de-tv">Canales de TV</h1>
+<p>Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.</p>
+<h2 id="código-php-y-html">Código PHP y HTML</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$url <span style="color:#f92672">= …</span></span></span></span></span></span></span></code></pre></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 16, 1010</span>
+                        <a href="/contenidos/canalestv/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/contenidos/cliente/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title=""></h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><h1 id="desarrollo-web-en-entorno-cliente">Desarrollo web en entorno cliente</h1>
+<p>El módulo <strong>&ldquo;Desarrollo web en entorno cliente&rdquo;</strong> (DWC) forma parte del currículo del <strong>Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong> impartido en centros como el <strong>CPIFP Los Enlaces</strong> en Zaragoza. Este módulo tiene como objetivo …</p></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 16, 1010</span>
+                        <a href="/contenidos/cliente/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="row justify-content-center">
-            
-            <div class="col-md-4 p-0 m-0">
-                <div class="card p-0 m-0 border-0">
-                    <img class="w-100 viewer-enabled-image" height="280px" src="/images/imagen1.jpg">
-                </div>
+            <div class="col-auto m-3">
+                
             </div>
-            
-            <div class="col-md-4 p-0 m-0">
-                <div class="card p-0 m-0 border-0">
-                    <img class="w-100 viewer-enabled-image" height="280px" src="/images/imagen2.jpg">
-                </div>
-            </div>
-            
-            <div class="col-md-4 p-0 m-0">
-                <div class="card p-0 m-0 border-0">
-                    <img class="w-100 viewer-enabled-image" height="280px" src="/images/imagen3.jpg">
-                </div>
-            </div>
-            
-            <div class="col-md-4 p-0 m-0">
-                <div class="card p-0 m-0 border-0">
-                    <img class="w-100 viewer-enabled-image" height="280px" src="/images/imagen4.jpg">
-                </div>
-            </div>
-            
-            <div class="col-md-4 p-0 m-0">
-                <div class="card p-0 m-0 border-0">
-                    <img class="w-100 viewer-enabled-image" height="280px" src="/images/imagen5.jpg">
-                </div>
-            </div>
-            
         </div>
     </div>
 </div>
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var viewer = new Viewer(document.getElementById('list-page'), {
-            ...{"title":false}
-        });
-    });
-</script>
-
-
 
   </div><footer>
     
@@ -376,13 +409,13 @@ Galeria de Fotos | Bruno Guallar Aliaga
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/blogs/markdown/">
+                    <a href="/contenidos/markdown/">
                         <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/markdown/" class="primary-font card-title">
+                    <a href="/contenidos/markdown/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
                     </a>
                     <div class="card-text secondary-font">
@@ -402,7 +435,7 @@ Galeria de Fotos | Bruno Guallar Aliaga
                 </div>
                 <div class="mt-auto card-footer">
                     <span class="float-start">Nov 36, 30329</span>
-                    <a href="/blogs/markdown/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <a href="/contenidos/markdown/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -411,7 +444,7 @@ Galeria de Fotos | Bruno Guallar Aliaga
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/canalestv/" class="primary-font card-title">
+                    <a href="/contenidos/canalestv/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title=""></h5>
                     </a>
                     <div class="card-text secondary-font">
@@ -425,7 +458,7 @@ Galeria de Fotos | Bruno Guallar Aliaga
                 </div>
                 <div class="mt-auto card-footer">
                     <span class="float-start">Nov 16, 1010</span>
-                    <a href="/blogs/canalestv/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <a href="/contenidos/canalestv/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -434,7 +467,7 @@ Galeria de Fotos | Bruno Guallar Aliaga
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/cliente/" class="primary-font card-title">
+                    <a href="/contenidos/cliente/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title=""></h5>
                     </a>
                     <div class="card-text secondary-font">
@@ -444,7 +477,7 @@ Galeria de Fotos | Bruno Guallar Aliaga
                 </div>
                 <div class="mt-auto card-footer">
                     <span class="float-start">Nov 16, 1010</span>
-                    <a href="/blogs/cliente/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <a href="/contenidos/cliente/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
