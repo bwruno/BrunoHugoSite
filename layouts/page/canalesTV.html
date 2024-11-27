@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <h1>{{ .Title }}</h1>
+
+    <!-- Formulario para seleccionar el canal -->
+    <form method="get" action="">
+        <label for="canal">Selecciona un canal:</label>
+        <select name="canal" id="canal" onchange="window.location.href='?canal=' + this.value">
+            <option value="">--Selecciona un canal--</option>
+            {{ range .Site.Data.tv }}
+                <option value="{{ .name }}" {{ if eq .name (index .Params "canal") }}selected{{ end }}>
+                    {{ .name }}
+                </option>
+            {{ end }}
+        </select>
+    </form>
+
+    <hr />
+
+    <!-- Mostrar los canales seleccionados -->
+    {{ $selectedCanal := .Params.canal }}
+    {{ if $selectedCanal }}
+        {{ range .Site.Data.tv }}
+            {{ if eq .name $selectedCanal }}
+                <h2>Canales de {{ .name }}</h2>
+                <div>
+                    {{ range .channels }}
+                        <a href="{{ .web }}" target="_blank">
+                            <img src="{{ .logo }}" alt="{{ .name }}" style="max-width: 150px;">
+                        </a>
+                    {{ end }}
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ else }}
+        <p>Selecciona un canal para ver la lista de transmisiones.</p>
+    {{ end }}
+</body>
+</html>

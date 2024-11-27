@@ -26,9 +26,9 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contenidos/canalestv/</loc>
-  </url><url>
     <loc>http://localhost:1313/contenidos/cliente/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contenidos/canalestv/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

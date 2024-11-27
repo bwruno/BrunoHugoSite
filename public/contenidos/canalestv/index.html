@@ -30,18 +30,16 @@
 
 <meta property="og:url" content="http://localhost:1313/contenidos/canalestv/">
   <meta property="og:site_name" content="Bruno Guallar Aliaga">
-  <meta property="og:title" content="Bruno Guallar Aliaga">
-  <meta property="og:description" content="Canales de TV Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.
-Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAlejandroR/json_tv/refs/heads/main/tv.json&#34;; $json = file_get_contents($url); $data = json_decode($json, true); $options = &#34;&#34;; $canal = $_POST[&#39;canal&#39;] ?? &#34;&#34;; foreach ($data as $value) { $name = $value[&#39;name&#39;]; $selected = $name == $canal ? &#34;selected&#34; : &#34;&#34;; $options .= &#34;&lt;option $selected value=&#39;$name&#39;&gt;$name&lt;/option&gt;&#34;; } $listado = &#34;&#34;; if ($canal != &#34;&#34;) // Si tengo canal, recojo todos los canales foreach ($data as $canales) { if ($canales[&#39;name&#39;] == $canal) { foreach ($canales[&#39;channels&#39;] as $canal) { $listado .= &#34;&lt;a href=&#39;{$canal[&#39;web&#39;]}&#39;&gt;&lt;img src=&#39;{$canal[&#39;logo&#39;]}&#39; /&gt;&lt;/a&gt;&#34;; } } } ?&gt; &lt;!doctype html&gt; &lt;html lang=&#34;en&#34;&gt; &lt;head&gt; &lt;meta charset=&#34;UTF-8&#34;&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&#34;&gt; &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;form action=&#34;&lt;?= $_SERVER[&#39;PHP_SELF&#39;] ?&gt;&#34; method=&#34;post&#34;&gt; &lt;select name=&#34;canal&#34; id=&#34;&#34;&gt; &lt;?= $options ?&gt; &lt;/select&gt; &lt;input type=&#34;submit&#34; value=&#34;Ver canales&#34; name=&#34;submit&#34;&gt; &lt;hr /&gt; &lt;?= $listado ?&gt; &lt;/form&gt; &lt;/body&gt; &lt;/html&gt;">
+  <meta property="og:title" content="CanalesTV">
+  <meta property="og:description" content="Text about my cool site">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="contenidos">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Bruno Guallar Aliaga">
-  <meta name="twitter:description" content="Canales de TV Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.
-Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAlejandroR/json_tv/refs/heads/main/tv.json&#34;; $json = file_get_contents($url); $data = json_decode($json, true); $options = &#34;&#34;; $canal = $_POST[&#39;canal&#39;] ?? &#34;&#34;; foreach ($data as $value) { $name = $value[&#39;name&#39;]; $selected = $name == $canal ? &#34;selected&#34; : &#34;&#34;; $options .= &#34;&lt;option $selected value=&#39;$name&#39;&gt;$name&lt;/option&gt;&#34;; } $listado = &#34;&#34;; if ($canal != &#34;&#34;) // Si tengo canal, recojo todos los canales foreach ($data as $canales) { if ($canales[&#39;name&#39;] == $canal) { foreach ($canales[&#39;channels&#39;] as $canal) { $listado .= &#34;&lt;a href=&#39;{$canal[&#39;web&#39;]}&#39;&gt;&lt;img src=&#39;{$canal[&#39;logo&#39;]}&#39; /&gt;&lt;/a&gt;&#34;; } } } ?&gt; &lt;!doctype html&gt; &lt;html lang=&#34;en&#34;&gt; &lt;head&gt; &lt;meta charset=&#34;UTF-8&#34;&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&#34;&gt; &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;form action=&#34;&lt;?= $_SERVER[&#39;PHP_SELF&#39;] ?&gt;&#34; method=&#34;post&#34;&gt; &lt;select name=&#34;canal&#34; id=&#34;&#34;&gt; &lt;?= $options ?&gt; &lt;/select&gt; &lt;input type=&#34;submit&#34; value=&#34;Ver canales&#34; name=&#34;submit&#34;&gt; &lt;hr /&gt; &lt;?= $listado ?&gt; &lt;/form&gt; &lt;/body&gt; &lt;/html&gt;">
+  <meta name="twitter:title" content="CanalesTV">
+  <meta name="twitter:description" content="Text about my cool site">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -116,7 +114,7 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
   
 
   <title>
- | Bruno Guallar Aliaga
+CanalesTV | Bruno Guallar Aliaga
 
   </title>
 </head>
@@ -310,7 +308,7 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4"></h1>
+            <h1 class="text-center mb-4">CanalesTV</h1>
             <div class="text-center">
               
               Nov 16, 1010
@@ -324,57 +322,7 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
           </div>
           
           <article class="page-content  p-2">
-          <h1 id="canales-de-tv">Canales de TV</h1>
-<p>Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.</p>
-<h2 id="código-php-y-html">Código PHP y HTML</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://raw.githubusercontent.com/MAlejandroR/json_tv/refs/heads/main/tv.json&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$json <span style="color:#f92672">=</span> <span style="color:#a6e22e">file_get_contents</span>($url);
-</span></span><span style="display:flex;"><span>$data <span style="color:#f92672">=</span> <span style="color:#a6e22e">json_decode</span>($json, <span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span>$options <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>$canal <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#39;canal&#39;</span>] <span style="color:#f92672">??</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">foreach</span> ($data <span style="color:#66d9ef">as</span> $value) {
-</span></span><span style="display:flex;"><span>    $name <span style="color:#f92672">=</span> $value[<span style="color:#e6db74">&#39;name&#39;</span>];
-</span></span><span style="display:flex;"><span>    $selected <span style="color:#f92672">=</span> $name <span style="color:#f92672">==</span> $canal <span style="color:#f92672">?</span> <span style="color:#e6db74">&#34;selected&#34;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>    $options <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34;&lt;option </span><span style="color:#e6db74">$selected</span><span style="color:#e6db74"> value=&#39;</span><span style="color:#e6db74">$name</span><span style="color:#e6db74">&#39;&gt;</span><span style="color:#e6db74">$name</span><span style="color:#e6db74">&lt;/option&gt;&#34;</span>;
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>$listado <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($canal <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#75715e">// Si tengo canal, recojo todos los canales
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">foreach</span> ($data <span style="color:#66d9ef">as</span> $canales) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> ($canales[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">==</span> $canal) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">foreach</span> ($canales[<span style="color:#e6db74">&#39;channels&#39;</span>] <span style="color:#66d9ef">as</span> $canal) {
-</span></span><span style="display:flex;"><span>                $listado <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34;&lt;a href=&#39;</span><span style="color:#e6db74">{</span>$canal[<span style="color:#e6db74">&#39;web&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39;&gt;&lt;img src=&#39;</span><span style="color:#e6db74">{</span>$canal[<span style="color:#e6db74">&#39;logo&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39; /&gt;&lt;/a&gt;&#34;</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;!doctype html&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;html lang=&#34;en&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;head&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;meta charset=&#34;UTF-8&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;meta name=&#34;viewport&#34; 
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">          content=&#34;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;title&gt;Document&lt;/title&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/head&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;body&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;form action=&#34;&lt;?= $_SERVER[&#39;PHP_SELF&#39;] ?&gt;&#34; method=&#34;post&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;select name=&#34;canal&#34; id=&#34;&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">        &lt;?= $options ?&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;/select&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;input type=&#34;submit&#34; value=&#34;Ver canales&#34; name=&#34;submit&#34;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;hr /&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &lt;?= $listado ?&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/form&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/body&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&lt;/html&gt;
-</span></span></span></code></pre></div>
+          
           </article>
         </div>
       </div>
@@ -386,11 +334,7 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
                 Table Of Contents
               </h5>
               <div class="toc-content">
-                <nav id="TableOfContents">
-  <ul>
-    <li><a href="#código-php-y-html">Código PHP y HTML</a></li>
-  </ul>
-</nav>
+                <nav id="TableOfContents"></nav>
               </div>
           </aside>
           
@@ -408,17 +352,17 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text=&url=http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
+                  <a target="_blank" href="https://twitter.com/share?text=CanalesTV&url=http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=: http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=CanalesTV: http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f'>
+                  <a target="_blank" href='mailto:?subject=CanalesTV&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fcontenidos%2fcanalestv%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -532,29 +476,6 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/contenidos/canalestv/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title=""></h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p><h1 id="canales-de-tv">Canales de TV</h1>
-<p>Este código PHP obtiene una lista de canales de TV desde un archivo JSON alojado en GitHub, permite seleccionar un canal desde un formulario desplegable, y muestra los canales correspondientes junto con sus logotipos.</p>
-<h2 id="código-php-y-html">Código PHP y HTML</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$url <span style="color:#f92672">= …</span></span></span></span></span></span></span></code></pre></div></p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">Nov 16, 1010</span>
-                    <a href="/contenidos/canalestv/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/contenidos/cliente/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title=""></h5>
                     </a>
@@ -566,6 +487,24 @@ Código PHP y HTML &lt;?php $url = &#34;https://raw.githubusercontent.com/MAleja
                 <div class="mt-auto card-footer">
                     <span class="float-start">Nov 16, 1010</span>
                     <a href="/contenidos/cliente/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/contenidos/canalestv/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="CanalesTV">CanalesTV</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 16, 1010</span>
+                    <a href="/contenidos/canalestv/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
